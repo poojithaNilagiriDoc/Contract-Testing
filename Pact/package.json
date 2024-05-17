@@ -1,0 +1,21 @@
+{
+  "name": "pact",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Sample.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "consumer:test": "mocha consumer/consumer.spec.js",
+    "provider:test": "mocha provider/provider.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@pact-foundation/pact": "^11.0.2",
+    "@pact-foundation/pact-node": "^10.17.7"
+  },
+  "dependencies": {
+    "mocha": "^10.2.0"
+  }
+}
